@@ -10,7 +10,7 @@ export default {
     }
 
     const res = await fetch(request);
-    return new HTMLRewriter().on('section#content', new ElementHandler()).transform(res);
+    return new HTMLRewriter().on('section#title', new ElementHandler()).transform(res);
 
 
     async function getFact() {
