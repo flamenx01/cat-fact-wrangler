@@ -1,0 +1,12 @@
+name = "worker-cat-fact"
+main = "src/worker.js"
+compatibility_date = "2024-01-09"
+workers_dev = false
+
+[[routes]]
+pattern = "https://reason-digital-technical-task-2.pages.dev/digital-divide/"
+zone_name = "reason-digital-technical-task-2.pages.dev"
+
+[[routes]]
+pattern = "*.reason-digital-technical-task-2.pages.dev/digital-divide/"
+zone_name = "reason-digital-technical-task-2.pages.dev"
